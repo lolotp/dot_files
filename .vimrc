@@ -3,3 +3,6 @@ set nowrap
 set showmatch
 set nobackup
 set noswapfile
+set title
+set pastetoggle=<F2>
+
