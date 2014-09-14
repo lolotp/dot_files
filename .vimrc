@@ -5,4 +5,5 @@ set nobackup
 set noswapfile
 set title
 set pastetoggle=<F2>
+set shiftround
 
