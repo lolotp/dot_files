@@ -24,6 +24,7 @@ Plug 'mxw/vim-jsx'
 Plug 'sickill/vim-monokai'
 Plug 'altercation/vim-colors-solarized'
 Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'pbrisbin/vim-syntax-shakespeare'
 
 " local bundles
 if filereadable(expand("~/.vimrc.bundles.local"))
