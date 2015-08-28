@@ -1,3 +1,8 @@
+" --- Plugin Manager ---
+if filereadable(expand("~/.vimrc.bundles"))
+  source ~/.vimrc.bundles
+endif
+
 filetype plugin indent on
 set nowrap
 set showmatch
