@@ -11,6 +11,7 @@ set noswapfile
 set title
 set pastetoggle=<F2>
 set shiftround
+let g:airline_powerline_fonts = 1
 
 " vp doesn't replace paste buffer
 function! RestoreRegister()
