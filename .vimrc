@@ -22,3 +22,5 @@ function! s:Repl()
   return "p@=RestoreRegister()\<cr>"
 endfunction
 vmap <silent> <expr> p <sid>Repl()
+nmap <silent> <leader>] :NERDTreeTabsToggle<CR>
+inoremap <S-tab> <Esc>
