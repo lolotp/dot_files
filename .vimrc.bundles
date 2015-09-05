@@ -26,6 +26,9 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'pbrisbin/vim-syntax-shakespeare'
 
+" vim+haskell repl helper
+Plug 'jpalardy/vim-slime'
+
 " local bundles
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
