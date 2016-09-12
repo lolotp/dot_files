@@ -24,4 +24,4 @@ function! s:Repl()
 endfunction
 vmap <silent> <expr> p <sid>Repl()
 nnoremap <silent> <leader>] :NERDTreeTabsToggle<CR>
-inoremap <S-tab> <Esc>
+inoremap <C-l> <Esc>
