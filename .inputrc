@@ -1,2 +1,6 @@
 set editing-mode vi
-set keymap vi-command
+# vi settings
+$if mode=vi
+  set keymap vi-insert
+  <C-l>: vi-movement-mode # remap escape
+$endif
